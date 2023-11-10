@@ -1,6 +1,11 @@
 from sys import stdout, stdin
 from time import sleep
 class fg:
+  """
+  fg.<color>
+  please type a valid color
+  black, red, green, yellow, blue, magenta, cyan, white, brightBlack, brightRed, brightGreen, brightYellow, brightBlue, brightMagenta, brightCyan, brightWhite
+  """
   black = "\u001b[30m"
   red = "\u001b[31m"
   green = "\u001b[32m"
@@ -21,6 +26,11 @@ class fg:
   def rgb(r, g, b): return f"\u001b[38;2;{r};{g};{b}m"
 
 class bg:
+  """
+  bg.<color>
+  please type a valid color
+  black, red, green, yellow, blue, magenta, cyan, white, brightBlack, brightRed, brightGreen, brightYellow, brightBlue, brightMagenta, brightCyan, brightWhite
+  """
   black = "\u001b[40m"
   red = "\u001b[41m"
   green = "\u001b[42m"
@@ -40,9 +50,17 @@ class bg:
 
   def rgb(r, g, b): return f"\u001b[48;2;{r};{g};{b}m"
 class util:
+  """ resets the color 
+  """
   reset = "\u001b[0m"
+  """ makes the text bold 
+  """
   bold = "\u001b[1m"
+  """ makes the text underline 
+  """
   underline = "\u001b[4m"
+  """ reverses the text
+  """
   reverse = "\u001b[7m"
 
   clear = "\u001b[2J"
@@ -52,7 +70,7 @@ class util:
   down = "\u001b[1B"
   right = "\u001b[1C"
   left = "\u001b[1D"
-
+  
   nextline = "\u001b[1E"
   prevline = "\u001b[1F"
 
