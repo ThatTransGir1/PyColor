@@ -1,0 +1,22 @@
+[project]
+name = "PyColor"
+version = "0.0.1"
+authors = [
+  { name="ThatTransGir1", email="thegamershollow@outlook.com" },
+]
+description = "A python module that uses ANSI Escape Sequences to change the color of printed text, and other stuff as well."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ThatTransGir1/PyColor"
+"Bug Tracker" = "https://github.com/ThatTransGir1/PyColor/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

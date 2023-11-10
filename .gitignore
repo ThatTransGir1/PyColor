@@ -400,5 +400,4 @@ FodyWeavers.xsd
 # replit files
 *.upm
 *poetry.lock
-*pyproject.toml
 *.replit
