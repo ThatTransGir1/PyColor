@@ -555,6 +555,9 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# other python stuff
+*.pythonlibs
+
 # JetBrains Rider
 *.sln.iml
 
